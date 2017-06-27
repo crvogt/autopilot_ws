@@ -1,0 +1,1 @@
+/home/carson/autopilot_ws/devel/.private/offboard_control/lib/pkgconfig/offboard_control.pc

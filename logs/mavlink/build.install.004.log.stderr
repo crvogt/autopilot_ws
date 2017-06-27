@@ -1,0 +1,17 @@
++ [ -n  ]
++ echo_and_run cd /home/carson/autopilot_ws/src/mavlink/pymavlink
++ echo + cd /home/carson/autopilot_ws/src/mavlink/pymavlink
++ cd /home/carson/autopilot_ws/src/mavlink/pymavlink
++ echo_and_run mkdir -p /home/carson/autopilot_ws/devel/lib/python2.7/dist-packages
++ echo + mkdir -p /home/carson/autopilot_ws/devel/lib/python2.7/dist-packages
++ mkdir -p /home/carson/autopilot_ws/devel/lib/python2.7/dist-packages
++ echo_and_run /usr/bin/env PYTHONPATH=/home/carson/autopilot_ws/devel/lib/python2.7/dist-packages:/home/carson/autopilot_ws/build/mavlink/lib/python2.7/dist-packages:/home/carson/autopilot_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/home/carson/autopilot_ws/mavlink /usr/bin/python2 /home/carson/autopilot_ws/src/mavlink/pymavlink/setup.py build --build-base /home/carson/autopilot_ws/build/mavlink/pymavlink install --install-layout=deb --prefix=/home/carson/autopilot_ws/devel
++ echo + /usr/bin/env PYTHONPATH=/home/carson/autopilot_ws/devel/lib/python2.7/dist-packages:/home/carson/autopilot_ws/build/mavlink/lib/python2.7/dist-packages:/home/carson/autopilot_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/home/carson/autopilot_ws/mavlink /usr/bin/python2 /home/carson/autopilot_ws/src/mavlink/pymavlink/setup.py build --build-base /home/carson/autopilot_ws/build/mavlink/pymavlink install --install-layout=deb --prefix=/home/carson/autopilot_ws/devel
++ /usr/bin/env PYTHONPATH=/home/carson/autopilot_ws/devel/lib/python2.7/dist-packages:/home/carson/autopilot_ws/build/mavlink/lib/python2.7/dist-packages:/home/carson/autopilot_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/home/carson/autopilot_ws/mavlink /usr/bin/python2 /home/carson/autopilot_ws/src/mavlink/pymavlink/setup.py build --build-base /home/carson/autopilot_ws/build/mavlink/pymavlink install --install-layout=deb --prefix=/home/carson/autopilot_ws/devel
+zip_safe flag not set; analyzing archive contents...
+pymavlink.generator.mavgen: module references __file__
+pymavlink.generator.mavgen_swift: module references __file__
+pymavlink.generator.mavgen_java: module references __file__
+pymavlink.generator.mavgen_c: module references __file__
+pymavlink.generator.lib.minixsv.__init__: module references __file__
+pymavlink.generator.lib.genxmlif.__init__: module references __file__

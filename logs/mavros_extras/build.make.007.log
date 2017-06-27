@@ -1,0 +1,7 @@
+[  9%] [ 18%] Built target servo_state_publisher
+Built target copter_visualization
+[ 27%] Built target gcs_image_bridge
+[35m[1mScanning dependencies of target mavros_extras
+[0m[ 36%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o
+[0m[31m[1mLinking CXX shared library /home/carson/autopilot_ws/devel/.private/mavros_extras/lib/libmavros_extras.so
+[0m[100%] Built target mavros_extras

@@ -1,0 +1,8 @@
+prefix=/home/carson/autopilot_ws/install
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 0.17.5
+Cflags: -I/home/carson/autopilot_ws/install/include
+Libs: -L/home/carson/autopilot_ws/install/lib 
+Requires: geometry_msgs message_runtime std_msgs
